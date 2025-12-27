@@ -1,0 +1,26 @@
+pandas>=1.5.0
+numpy>=1.23.0
+matplotlib>=3.6.0
+seaborn>=0.12.0
+sqlalchemy>=1.4.0
+psycopg2-binary>=2.9.0
+jupyter>=1.0.0
+notebook>=6.5.0
+
+**How to install**
+
+    pip install -r requirements.txt
+
+pandas – data cleaning, merging, feature engineering
+
+numpy – numerical operations
+
+matplotlib – basic visualizations
+
+seaborn – EDA visualizations
+
+sqlalchemy – database connection and data loading
+
+psycopg2-binary – PostgreSQL driver
+
+jupyter / notebook – running analysis notebooks
