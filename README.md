@@ -1,10 +1,10 @@
-##Brazilian E-Commerce Data Analysis (Olist Dataset)
+**Brazilian E-Commerce Data Analysis (Olist Dataset)**
 
-##Project Overview
+**Project Overview**
 This project performs an end-to-end analysis of Brazilian e-commerce data using the Olist dataset.
 The objective is to extract meaningful business insights related to sales performance, customer behavior, delivery efficiency, and customer satisfaction by using Python, SQL, and Power BI.
 
-##Objectives
+**Objectives**
 
 Analyze revenue and order trends over time
 
@@ -14,11 +14,11 @@ Evaluate delivery performance and its impact on customer reviews
 
 Build an interactive dashboard for business decision-making
 
-##Dataset
+**Dataset**
 Source: Brazilian E-Commerce Public Dataset (Olist)
 Approximate size: 100,000 orders
 
-##Key tables used:
+**Key tables used:**
 
 Orders
 
@@ -32,7 +32,7 @@ Products
 
 Reviews
 
-##Tech Stack
+**Tech Stack**
 
 Python: Pandas, NumPy, Matplotlib, Seaborn
 
@@ -42,7 +42,7 @@ BI Tool: Power BI
 
 Other Tools: Jupyter Notebook, Power Query, DAX
 
-##Project Workflow
+**Project Workflow**
 
 Data Cleaning and Feature Engineering (Python)
 
@@ -54,7 +54,7 @@ Converted columns to appropriate data types
 
 Created derived features such as delivery_time_days and customer_type (new vs repeat customers)
 
-Exploratory Data Analysis (EDA)
+**Exploratory Data Analysis (EDA)**
 
 Analyzed revenue trends over time
 
@@ -68,7 +68,7 @@ Analyzed payment methods
 
 EDA was performed in a separate notebook for modularity and clarity.
 
-Data Storage and SQL Analysis (PostgreSQL)
+**Data Storage and SQL Analysis (PostgreSQL)**
 
 Loaded the cleaned dataset into PostgreSQL using Python
 
@@ -80,7 +80,7 @@ Converted floating-point monetary values to numeric types
 
 Wrote SQL queries to analyze monthly revenue, delivery performance, customer behavior, and category-wise sales
 
-Power BI Dashboard
+**Power BI Dashboard**
 
 Connected Power BI to PostgreSQL using Import connectivity mode
 
@@ -92,13 +92,13 @@ Built an interactive dashboard with slicers
 
 Dashboard sections include:
 
-##Executive Summary
+**Executive Summary**
 
 Sales and Product Performance
 
 Customer and Delivery Analysis
 
-##Key Insights
+**Key Insights**
 
 Revenue shows seasonal trends with noticeable peaks
 
@@ -110,7 +110,7 @@ Faster deliveries are associated with higher customer review scores
 
 Majority of customers are first-time buyers
 
-##Power BI Measures
+**Power BI Measures**
 
 Total Revenue
 
@@ -136,10 +136,10 @@ DAX measure creation
 
 Data storytelling
 
-##Business Impact
+**Business Impact**
 This analysis helps e-commerce stakeholders understand sales trends, improve delivery operations, identify high-performing categories, and enhance customer satisfaction through data-driven insights.
 
-##How to Run the Project
+**How to Run the Project**
 
 Clone the repository
 
@@ -151,10 +151,10 @@ Connect Power BI to PostgreSQL
 
 Refresh the data and explore the dashboard
 
-##Author
+**Author**
 Name: Thiyanesh
 Role: Aspiring Data Analyst
 Skills: Python, SQL, Power BI, Data Analysis
 
-Final Note
+**Final Note**
 This project demonstrates a complete real-world data analyst workflow, from raw data processing to business insights and dashboard visualization.
